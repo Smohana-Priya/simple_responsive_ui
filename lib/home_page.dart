@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:simple_responsive_ui/model/model.dart';
 import 'package:simple_responsive_ui/screen/body/body_parts.dart';
+import 'package:simple_responsive_ui/screen/footer/footer.dart';
 import 'package:simple_responsive_ui/screen/header/header_menu.dart';
 
 import 'screen/header/header_parts.dart';
@@ -27,10 +27,7 @@ class HomePage extends StatelessWidget {
       ),
       body: const SingleChildScrollView(
         child: Column(
-          children: [
-            HeaderParts(),
-            BodyParts(),
-          ],
+          children: [HeaderParts(), BodyParts(), FooterParts()],
         ),
       ),
     );
