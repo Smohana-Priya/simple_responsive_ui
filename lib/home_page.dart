@@ -10,24 +10,26 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      drawer: Drawer(
-        child: ListView(
-          children: const [
-            DrawerHeader(
-              decoration: BoxDecoration(color: Colors.pink),
-              child: CircleAvatar(
-                radius: 60,
-                backgroundImage: AssetImage("assets/pets_logo.png"),
+    return SafeArea(
+      child: Scaffold(
+        drawer: Drawer(
+          child: ListView(
+            children: const [
+              DrawerHeader(
+                decoration: BoxDecoration(color: Colors.pink),
+                child: CircleAvatar(
+                  radius: 60,
+                  backgroundImage: AssetImage("assets/pets_logo.png"),
+                ),
               ),
-            ),
-            MobileMenu()
-          ],
+              MobileMenu()
+            ],
+          ),
         ),
-      ),
-      body: const SingleChildScrollView(
-        child: Column(
-          children: [HeaderParts(), BodyParts(), FooterParts()],
+        body: const SingleChildScrollView(
+          child: Column(
+            children: [HeaderParts(), BodyParts(), FooterParts()],
+          ),
         ),
       ),
     );
