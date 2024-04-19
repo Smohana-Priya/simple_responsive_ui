@@ -33,7 +33,7 @@ class FooterParts extends StatelessWidget {
             ),
           ),
           const Text(
-            "Pets are domesticated animals kept primarily for companionship, pleasure, or as a hobby, rather than for work or food production. They play significant roles in the lives of many people, providing companionship, emotional support, and sometimes even therapeutic benefits. Pets come in various shapes, sizes, and species. Common types of pets include dogs, cats, birds, fish, rabbits,",
+            "Pets are domesticated animals kept primarily for companionship, pleasure, or as a hobby, rather than for work or food production. They play significant roles in the lives of many people, providing companionship, emotional support, and sometimes even therapeutic benefits. Pets come in various shapes, sizes, and species. Common types of pets include dogs, cats, birds, fish, rabbits!!!,",
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.black54,
